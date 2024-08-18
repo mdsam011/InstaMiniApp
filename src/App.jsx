@@ -37,7 +37,8 @@ const App = () => {
 
   }, { scope: cardContainer })
 
-  const RollAnimation = contextSafe(() => {
+  const RollAnimation =() => {
+    
     gsap.from(".stories", {
       rotate: 360,
       duration: 1,
@@ -45,11 +46,7 @@ const App = () => {
       ease: "back(2)",
       stagger: 0.15,
     });
-    gsap.to(".stories",{
-      duration:1,
-      opacity:1,
-    })
-  })
+  }
 
   // this is a Asynchronous function that gets the data from a mock api through axios.get request and updates the user state
   const getdata = async () => {
