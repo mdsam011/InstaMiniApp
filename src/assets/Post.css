@@ -1,0 +1,10 @@
+#PostSpace::-webkit-scrollbar{
+    scrollbar-width: none;
+}
+
+
+
+#post{
+    box-shadow: 2px 2px 20px gray;
+}
+
