@@ -1,7 +1,14 @@
 @media(max-width:600px){
     #card,#storycard{
-        width:80%;
-        height:85%;
+        width:100%;
+        height:100%;
+    }
+    #card{
+        align-items: start;
+    }
+    #post{
+        margin-top: 20px;
+        height: 90%;
     }
 }
 
