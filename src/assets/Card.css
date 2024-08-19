@@ -8,7 +8,11 @@
     }
     #post{
         margin-top: 20px;
-        height: 90%;
+        height: 80%;
+        width: 90%;
+    }
+    #storyspace{
+        height: 16%;
     }
 }
 
