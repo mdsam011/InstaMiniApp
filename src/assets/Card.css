@@ -1,13 +1,15 @@
 @media(max-width:600px){
     #card,#storycard{
-        width:80%
+        width:80%;
+        height:85%;
     }
 }
 
 @media(max-width:1000px) and (min-width:601px)
 {
     #card,#storycard{
-        width:60%
+        width:60%;
+        height:85%;
     }
 
 }
